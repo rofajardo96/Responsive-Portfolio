@@ -95,4 +95,32 @@ li a {
     border-top: 6px solid #4aaaa5
 }
 
+/* Adding media tags */
+@media screen and (max-width: 640px) {
+    .navbar {
+        position: static;
+    }
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 760px
+    }
+
+    
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+
+
+
+
 
